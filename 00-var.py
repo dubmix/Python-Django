@@ -19,7 +19,8 @@ def my_var():
 	print(var, "has a type", type(var))
 	var = (42, 67)
 	print(var, "has a type", type(var))
-	var = set()
+	var = {1, 3, 42}
 	print(var, "has a type", type(var))
 
-my_var()
+if __name__ == '__main__':
+	my_var()
